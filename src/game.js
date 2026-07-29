@@ -30,22 +30,3 @@ export function setWinner(scoreA, scoreB, target) {
 export function setsToWin(totalSets) {
   return Math.floor(totalSets / 2) + 1;
 }
-
-export function removePlayerFromTeams(teams, playerId) {
-  return {
-    teamA: teams.teamA.filter(player => player.id !== playerId),
-    teamB: teams.teamB.filter(player => player.id !== playerId),
-  };
-}
-
-export function transferPlayer(teams, playerId, from) {
-  const source = from === 'A' ? 'teamA' : 'teamB';
-  const destination = from === 'A' ? 'teamB' : 'teamA';
-  const player = teams[source].find(item => item.id === playerId);
-  if (!player) return teams;
-  return {
-    ...teams,
-    [source]: teams[source].filter(item => item.id !== playerId),
-    [destination]: [...teams[destination], player],
-  };
-}
