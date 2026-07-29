@@ -33,3 +33,4 @@ o sorteio, o placar e o novo sorteio ao encerrar a partida funcionam nessa demon
 - Sets regulares até 25 pontos; tie-break decisivo até 15.
 - Sempre são necessários dois pontos de vantagem.
 - Ao confirmar o encerramento, somente quem estava em quadra participa do novo sorteio.
+- Durante a partida, jogadores podem ser arrastados entre os times ou removidos sem substituição automática.
