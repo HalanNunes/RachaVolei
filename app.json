@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "Racha Vôlei",
+    "slug": "racha-volei",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.rachavolei.app" },
+    "android": { "package": "com.rachavolei.app", "adaptiveIcon": { "backgroundColor": "#172521" } },
+    "web": { "bundler": "metro" }
+  }
+}
